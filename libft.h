@@ -6,7 +6,7 @@
 /*   By: rpottier <rpottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 11:56:49 by rpottier          #+#    #+#             */
-/*   Updated: 2021/11/25 16:02:54 by rpottier         ###   ########.fr       */
+/*   Updated: 2021/12/11 14:53:41 by rpottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 
-// BONUS
+/* BONUS */
 
 typedef struct s_list
 {
@@ -68,4 +68,10 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
+/* AJOUT PERSONNEL */
+
+void	ft_putnbr_base(int nbr, char *base);
+int		ft_atoi_base(char *str, char *base);
+
 #endif
