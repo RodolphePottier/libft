@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi_base.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpottier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: rpottier <rpottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/11 09:49:07 by rpottier          #+#    #+#             */
-/*   Updated: 2021/08/11 17:37:15 by rpottier         ###   ########.fr       */
+/*   Updated: 2022/02/28 14:17:53 by rpottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,8 @@ unsigned int	check_base(char *base)
 {
 	unsigned int	i;
 	unsigned int	j;
-	unsigned int	base_length;
 
 	i = 0;
-	base_length = 0;
 	while (base[i])
 	{
 		if (base[i] == '+' || base[i] == '-' || is_white_space(base[i]))

@@ -6,12 +6,13 @@
 /*   By: rpottier <rpottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 14:24:27 by rpottier          #+#    #+#             */
-/*   Updated: 2021/12/06 10:23:42 by rpottier         ###   ########.fr       */
+/*   Updated: 2022/02/28 14:19:19 by rpottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+# define GET_NEXT_
+# define BUFFER_SIZE 32
 
 # include <stdlib.h>
 # include <fcntl.h>
