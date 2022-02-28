@@ -6,14 +6,14 @@
 /*   By: rpottier <rpottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 11:56:49 by rpottier          #+#    #+#             */
-/*   Updated: 2022/02/28 13:58:42 by rpottier         ###   ########.fr       */
+/*   Updated: 2022/02/28 14:02:50 by rpottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stdlib.h>
-# include "gnl/get_next_line.h"
+# include "get_next_line/get_next_line.h"
 # include "ft_printf/ft_printf.h"
 
 int		ft_atoi(const char *nptr);
