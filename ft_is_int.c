@@ -6,7 +6,7 @@
 /*   By: rpottier <rpottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/02 15:20:04 by rpottier          #+#    #+#             */
-/*   Updated: 2022/03/02 15:45:47 by rpottier         ###   ########.fr       */
+/*   Updated: 2022/03/02 15:47:16 by rpottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,10 +47,10 @@ int	ft_is_int(char *str)
 	if (ft_strlen(str) > 11)
 		return (0);
 	if (ft_strlen(str) == 10)
-		if (ft_strcmp("2147483647", str) < 0)
+		if (ft_strncmp("2147483647", str, 10) < 0)
 			return (0);
 	if (ft_strlen(str) == 11)
-		if (ft_strcmp("-2147483648", str) < 0)
+		if (ft_strncmp("-2147483648", str, 11) < 0)
 			return (0);
 	return (1);
 }
