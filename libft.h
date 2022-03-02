@@ -6,7 +6,7 @@
 /*   By: rpottier <rpottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 11:56:49 by rpottier          #+#    #+#             */
-/*   Updated: 2022/02/28 14:09:53 by rpottier         ###   ########.fr       */
+/*   Updated: 2022/03/02 15:50:52 by rpottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,5 +74,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 void	ft_putnbr_base(int nbr, char *base);
 int		ft_atoi_base(char *str, char *base);
+int		ft_is_int(char *str);
 
 #endif

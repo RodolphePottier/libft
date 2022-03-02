@@ -6,7 +6,7 @@
 /*   By: rpottier <rpottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/02 15:20:04 by rpottier          #+#    #+#             */
-/*   Updated: 2022/03/02 15:47:16 by rpottier         ###   ########.fr       */
+/*   Updated: 2022/03/02 16:02:30 by rpottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,13 +32,6 @@ int	ft_is_int(char *str)
 		i++;
 	len = ft_strlen(str);
 	skip_zero(str, i, len);
-/*	while (str[i] == '0' && str[i + 1] != '\0')
-	{
-		ft_memcpy(&str[i], &str[i + 1], ft_strlen(&str[i + 1]));
-		str[len - 1] = 0;
-		len--;
-	}
-*/
 	while (str[i])
 		if (ft_isdigit(str[i++]) == 0)
 			return (0);
